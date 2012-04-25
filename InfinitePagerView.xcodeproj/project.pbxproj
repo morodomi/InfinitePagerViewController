@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F19903A115478500001C8257 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19903A015478500001C8257 /* UIKit.framework */; };
+		F19903A315478500001C8257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19903A215478500001C8257 /* Foundation.framework */; };
+		F19903A515478500001C8257 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19903A415478500001C8257 /* CoreGraphics.framework */; };
+		F19903AB15478500001C8257 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F19903A915478500001C8257 /* InfoPlist.strings */; };
+		F19903AD15478500001C8257 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F19903AC15478500001C8257 /* main.m */; };
+		F19903B115478500001C8257 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F19903B015478500001C8257 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F199039C15478500001C8257 /* InfinitePagerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinitePagerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19903A015478500001C8257 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F19903A215478500001C8257 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F19903A415478500001C8257 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F19903A815478500001C8257 /* InfinitePagerView-Info.plist */ = {isa = PBXFileReference; path = "InfinitePagerView-Info.plist"; sourceTree = "<group>"; };
+		F19903AA15478500001C8257 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F19903AC15478500001C8257 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F19903AE15478500001C8257 /* InfinitePagerView-Prefix.pch */ = {isa = PBXFileReference; path = "InfinitePagerView-Prefix.pch"; sourceTree = "<group>"; };
+		F19903AF15478500001C8257 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F19903B015478500001C8257 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F199039915478500001C8257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19903A115478500001C8257 /* UIKit.framework in Frameworks */,
+				F19903A315478500001C8257 /* Foundation.framework in Frameworks */,
+				F19903A515478500001C8257 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F199039115478500001C8257 = {
+			isa = PBXGroup;
+			children = (
+				F19903A615478500001C8257 /* InfinitePagerView */,
+				F199039F15478500001C8257 /* Frameworks */,
+				F199039D15478500001C8257 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F199039D15478500001C8257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F199039C15478500001C8257 /* InfinitePagerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F199039F15478500001C8257 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F19903A015478500001C8257 /* UIKit.framework */,
+				F19903A215478500001C8257 /* Foundation.framework */,
+				F19903A415478500001C8257 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F19903A615478500001C8257 /* InfinitePagerView */ = {
+			isa = PBXGroup;
+			children = (
+				F19903AF15478500001C8257 /* AppDelegate.h */,
+				F19903B015478500001C8257 /* AppDelegate.m */,
+				F19903A715478500001C8257 /* Supporting Files */,
+			);
+			path = InfinitePagerView;
+			sourceTree = "<group>";
+		};
+		F19903A715478500001C8257 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F19903A815478500001C8257 /* InfinitePagerView-Info.plist */,
+				F19903A915478500001C8257 /* InfoPlist.strings */,
+				F19903AC15478500001C8257 /* main.m */,
+				F19903AE15478500001C8257 /* InfinitePagerView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F199039B15478500001C8257 /* InfinitePagerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19903B415478500001C8257 /* Build configuration list for PBXNativeTarget "InfinitePagerView" */;
+			buildPhases = (
+				F199039815478500001C8257 /* Sources */,
+				F199039915478500001C8257 /* Frameworks */,
+				F199039A15478500001C8257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfinitePagerView;
+			productName = InfinitePagerView;
+			productReference = F199039C15478500001C8257 /* InfinitePagerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F199039315478500001C8257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F199039615478500001C8257 /* Build configuration list for PBXProject "InfinitePagerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F199039115478500001C8257;
+			productRefGroup = F199039D15478500001C8257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F199039B15478500001C8257 /* InfinitePagerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F199039A15478500001C8257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19903AB15478500001C8257 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F199039815478500001C8257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19903AD15478500001C8257 /* main.m in Sources */,
+				F19903B115478500001C8257 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F19903A915478500001C8257 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19903AA15478500001C8257 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F19903B215478500001C8257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F19903B315478500001C8257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F19903B515478500001C8257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfinitePagerView/InfinitePagerView-Prefix.pch";
+				INFOPLIST_FILE = "InfinitePagerView/InfinitePagerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F19903B615478500001C8257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfinitePagerView/InfinitePagerView-Prefix.pch";
+				INFOPLIST_FILE = "InfinitePagerView/InfinitePagerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F199039615478500001C8257 /* Build configuration list for PBXProject "InfinitePagerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19903B215478500001C8257 /* Debug */,
+				F19903B315478500001C8257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19903B415478500001C8257 /* Build configuration list for PBXNativeTarget "InfinitePagerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19903B515478500001C8257 /* Debug */,
+				F19903B615478500001C8257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F199039315478500001C8257 /* Project object */;
+}
