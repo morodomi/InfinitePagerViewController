@@ -1,5 +1,7 @@
-<strong>Author</strong>
-morodomi &lt;morodomi at gmail.com&gt;
+#Author
+Masahiro Morodomi <https://github.com/morodomi>
 
-<strong>Description</strong>
-Infinitely scrolling page view controller
+#Description
+Infinitely scrolling page view controller.
+
+This is not a library, just a sample implementation of UIScrollView.

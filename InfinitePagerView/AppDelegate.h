@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  InfinitePagerView
 //
-//  Created by 政洋 諸富 on 12/04/25.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Created by Masahiro Morodomi on 12/04/25.
+//  Copyright (c) 2012 shonanshachu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
